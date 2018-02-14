@@ -1,0 +1,89 @@
+<div class="container-fluid p-4">
+    <div class="row">
+        <div class="col-2 p-4">
+            <h3 class="mb-4">Proyectos UL</h3>
+           
+            <div class="card">
+                <div class="card-body p-0">
+                    <h5 class="h-gray p-3">Mis proyectos</h5>
+                    <h5 class="h-gray p-3">Ver proyectos</h5>
+                    <hr>
+                    <h5 class="h-gray p-3">Configuración</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>Mis Proyectos</h1>
+            <ul class="nav nav-tabs mt-4 ml-4">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#!">Que soy parte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#!">Que sigo</a>
+                </li>
+            </ul>
+            <div class="p-4 borde-gray">
+                <div class="pb-3">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Crear</button>
+                </div>
+                <div class="borde-gray ">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                            <th>Nombre</th>
+                            <th>Rating</th>
+                            <th>Curso</th>
+                            <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Juego FlappyUL</td>
+                                <td></td>
+                                <td>Programación movil</td>
+                                <td></td>
+                            <tr>
+                            <tr>
+                                <td>Juego FlappyUL</td>
+                                <td></td>
+                                <td>Programación movil</td>
+                                <td></td>
+                            <tr>
+                        </tbody>
+                    </table>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="container mt-4">          
+             <h3>Guardar Proyecto</h3>    
+             <form class="mt-4">
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Nombre:</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Curso:</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Descripción:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="d-flex justify-content-end"> 
+                    <button type="button" class="btn btn-success mr-4">Guardar</button>
+                    <button type="button" class="btn btn-danger">Cerrar</button>
+                </div>
+            </form>       
+        </div>
+    </div>
+  </div>
+</div>

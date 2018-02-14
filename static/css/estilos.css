@@ -1,0 +1,15 @@
+.div-login {
+    height: 100vh;  
+    display: flex;
+}
+.login{
+    padding: 2rem;
+    width: 550px;
+    margin: auto
+}
+.h-gray:hover{
+    background-color: lightgray;
+}
+.borde-gray{
+    border: 1px solid lightgray;
+}
